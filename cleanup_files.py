@@ -6,7 +6,7 @@ def main():
     os.chdir('Lyrics')
     for directory_name, subdirectories, filenames in os.walk('.'):
         for x in filenames:
-            new_name = clean_file_name(x)
+            clean_file_name(x)
             old_name = os.path.join(directory_name, x)
             new_name = os.path.join(directory_name, clean_file_name(x))
             os.rename(old_name, new_name)
