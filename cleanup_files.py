@@ -1,3 +1,9 @@
+"""
+Theeradon Somsri
+CP1404 practical 09
+Cleanup_filename
+"""
+
 import os
 
 
